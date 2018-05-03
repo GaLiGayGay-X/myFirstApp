@@ -8,9 +8,7 @@ const Filter = ({...filterProps, addSameLevelEnum, addLowerLevelEnum}) => {
     <Row>
 
       <Col span={6}>
-
         <SearchInput placeholder="请输入枚举名称" onSearch={value => console.log(value)} enterButton/>
-
       </Col>
       <Col offset={6}>
 

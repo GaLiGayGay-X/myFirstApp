@@ -10,11 +10,10 @@ const Filter = ({...filterProps, addSameLevelEnum, addLowerLevelEnum}) => {
       <Col span={6}>
         <SearchInput placeholder="请输入枚举名称" onSearch={value => console.log(value)} enterButton/>
       </Col>
+
       <Col offset={6}>
-
         <Button type='primary' onClick={addSameLevelEnum}>新增同级枚举类型</Button>&nbsp;&nbsp;&nbsp;
-        <Button type='primary' onClick={addLowerLevelEnum}>新增下级枚举类型</Button>
-
+        <Bu0tton type='primary' onClick={addLowerLevelEnum}>新增下级枚举类型</Bu0tton>
       </Col>
     </Row>
   )
